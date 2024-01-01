@@ -1,25 +1,40 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>fruits</title>
-    </head>
     <body>
-        <ul>    
-            <li>Fruit
-              <ul>
-                <li>Bananas</li>
-                <li>Apples
-                  <ul>
-                    <li>Green</li>
-                    <li>Red</li>
-                  </ul>
-                </li>
-                <li>Pears</li>
-                  </ul>
-            </li>
-            <li>Vegetables</li>
-            <li>Meat</li>
+        <style>
+            #fff{
+                margin-left: 40px;
+            }
+        </style>
+    <h2>Preceding Text</h2>
+    <ol type="I">
+        <li>List item 1
+        <ol type="a">
+            <li>Nested item 1.1</li>
+            <li>Nested item 1.2</li>
+        </ol>
+        </li>
+        <li>List item 2</li>
+        <ol>
+            <li>Nested item 2.1</li>
+            <li>Nested item 2.2</li>
+        </ol>
+            <ul>
+                <div id="fff">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2</li>
+                <ul>
+                <li>Nested item 2.2.2.1</li>
+                <li>Nested item 2.2.2.2</li>
+            </ul>
+            <li>Nested item 2.2.3</li>
         </ul>
-        
+                </div>
+                <li>List item 3</li>
+                <ul style="list-style-type:disc;">
+                    <li>Nested item 3.1</li>
+                    <li>Nested item 3.2</li>
+                    <li>Nested item 3.3</li>
+                </ul>
     </body>
 </html>
