@@ -1,0 +1,17 @@
+*{ margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: white;
+    width: 40%;
+    border: 1px solid rgb(214, 53, 35);
+    margin: auto;
+    padding: 5%;
+}
+
+image{
+    border-radius: 10%;
+    box-shadow: 20px 20px lightblue;
+}
+
